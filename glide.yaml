@@ -1,0 +1,3 @@
+package: latihMgo
+import:
+- package: gopkg.in/mgo.v2
