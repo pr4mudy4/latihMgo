@@ -5,6 +5,7 @@ import (
 	mgo "gopkg.in/mgo.v2"
 
 )
+//connection db
 func GetMongoDB()(*mgo.Database, error){
 	host := os.Getenv("MONGO_HOST")
 	user := os.Getenv("MONGO_USER")
